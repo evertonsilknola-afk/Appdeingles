@@ -1,0 +1,6 @@
+COMO GERAR O APK (sem instalar nada no PC)
+1. Crie um repositório no GitHub e envie TODOS os arquivos desta pasta (inclusive a pasta oculta .github e o arquivo debug.keystore).
+2. Vá na aba "Actions" > "Build APK" > aguarde ~5 min (ou clique em "Run workflow").
+3. Abra a execução concluída > em "Artifacts" baixe "VocabMaster-APK" > extraia > instale o app-debug.apk no Android.
+Os dados (progresso, palavras novas, pontos) são salvos sozinhos na memória interna do app.
+Para ATUALIZAR sem perder dados: envie o novo código e instale o novo APK por cima (não desinstale). O debug.keystore mantém a assinatura igual.
